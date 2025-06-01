@@ -1,0 +1,8 @@
+CREATE DATABASE IF NOT EXISTS quotes_db;
+USE quotes_db;
+
+CREATE TABLE IF NOT EXISTS quotes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    quote TEXT NOT NULL
+);
+
